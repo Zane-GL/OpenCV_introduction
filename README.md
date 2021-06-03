@@ -2,4 +2,4 @@
 
 Learn about OpenCV
 
-## Welcome to [my vide home page](https://space.bilibili.com/501478621)
+## Welcome to my [vide home page](https://space.bilibili.com/501478621)
