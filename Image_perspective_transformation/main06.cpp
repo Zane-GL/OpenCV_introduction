@@ -12,7 +12,7 @@ static void onMouse(int event, int x, int y, int flags, void* userdata) {
 	static int i = 0;
 	switch (event)
 	{
-		case EVENT_LBUTTONDOWN://×ó»÷
+		case EVENT_LBUTTONDOWN:
 		{
 			pt1[i] = Point(x, y);
 			circle(image_copy, pt1[i], 1, Scalar(0, 0, 255), 10);
@@ -28,7 +28,7 @@ static void onMouse(int event, int x, int y, int flags, void* userdata) {
 	}
 	imshow(winName, image_copy);
 }
-int main06() {
+int main() {
 	system("color 2F");
 
 	string path = "Picture/020.jpg";
